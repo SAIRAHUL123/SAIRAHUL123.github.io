@@ -5,7 +5,45 @@
 My portfolio
 </title>
 using css
+<style>
 
+body{
+background-color:lightblue;
+}
+
+#info {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#info tr:hover {background-color: #ddd;}
+
+#info th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#info tr{
+background-color:gray;
+}
+
+h1
+{
+background-color:yellow;
+font-family:algerian;
+}
+
+ul
+{
+color:green;
+font-family:algerian;
+}
+
+</style>
 </head>
 <body>
 <table border = "2" align = "center" width = "60%">
